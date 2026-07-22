@@ -1,0 +1,16 @@
+{
+  "name": "exp3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-all": "concurrently \"npm start --prefix program-3a-counter\" \"npm start --prefix program-3b-api-fetch\" \"npm start --prefix program-3c-props\" \"npm start --prefix program-3d-froms\" \"npm start --prefix program-3e-map-rendering\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
